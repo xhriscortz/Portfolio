@@ -1,0 +1,123 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 10, 2018, 8:12:39 PM
+    Author     : arivera
+*/
+
+@media screen and (max-width: 426px) {
+    
+    .header-container {
+        text-align: center;
+        width: 100%;
+    }
+    
+    #featured-work-title {
+        text-align: center;
+    }
+    
+    #intro-paragraph {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .featured-work-container {
+        width: 100%;
+        height: auto;
+    }
+    
+    .column {
+        display: block;
+        width: 100%;
+    }
+    
+    #last-div {
+        height: 70px;
+        color: #3D85C6;
+    }
+        
+    .footer {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 427px) {
+        
+    /*Name on header*/
+    #name {
+        font-size: 25px;
+        margin-right: 10px;
+    }
+    /*Job description on header*/
+    #job-description {
+        font-size: 15px;
+        text-align: right;
+        margin-right: 10px;
+    }
+    #intro-paragraph {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    /* Header properties */ 
+    
+    /*Name on header*/
+    #name {
+        font-size: 35px;
+        margin: 5px 5px 5px 5px;
+        padding: 5px 5px 5px 5px;
+        
+    }
+    /*Job description on header*/
+    #job-description {
+        font-size: 20px;
+        margin: auto;
+        padding-right: 12px;
+        text-align: right
+    }
+    
+    #feature-work-title {
+        font-size: 30px;
+    }
+    .column {
+        text-align: center;
+    }
+} 
+
+@media screen and (max-width: 1023px) {
+    
+    /* Logo on header */
+    #logo {
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    #name {
+        font-size: 50px;
+    }
+    #job-description {
+        font-size: 35px;
+    }
+    #column-header {
+        font-size: 30px;
+        margin-right: 20px;
+    }
+      
+    #intro-paragraph {
+        font-size: 20px;
+        margin-right: 20px;
+    }
+    #featured-work-title {
+        font-size: 35px;
+    }
+    .work-title {
+        font-size: 30px;
+    }
+}

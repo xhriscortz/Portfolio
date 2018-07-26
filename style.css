@@ -1,0 +1,227 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 10, 2018, 7:46:35 PM
+    Author     : arivera
+*/
+
+/*Scroll bar*//* width */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 0px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: white; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: black; 
+}
+
+
+  html, body {
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+/*Header properties*/
+
+.header {
+   margin-top: 0px;
+   background-color: #b6e4f4; 
+   color: black;
+   text-align: center;
+   max-width: 100%
+}
+
+
+.header-container {
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: right;
+}
+
+#logo {
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 80px;
+    width: 80px;
+}
+
+hr {
+    border: none;
+    border-top: 2px double #7d97ad;
+    color: #7d97ad;
+    overflow: visible;
+    text-align: center;
+    height: 1px;
+    background: #7d97ad;
+}
+
+/*Main*/
+#main-photo {
+    border-radius: 50%;
+}
+
+
+.top-features {
+    margin-right: 15px;
+}
+
+.intro-column {
+    width: 50%;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    float: left;
+}
+
+#intro-paragraph {
+    text-align: justify;
+}
+
+
+/*Featured work*/
+
+#featured-work-title {
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    color: black;
+}
+
+#featured-work-hr {
+    width: 50%;
+}
+
+.featured-work-container {
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+    background-color: #3D85C6;
+    height: 450px;
+    margin-bottom: 0;
+}
+
+
+
+
+/* Create three equal columns that floats next to each other */
+.featured-work-column {
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    /*padding: 10px;
+    height: 300px;*/ /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Featured work listed out*/
+
+
+
+#book-review-image {
+    width: 25%;   
+}
+
+#tic-tac-toe-image {
+    width: 25%;
+}
+
+#neighborhood-map-image {
+    /*height: 110px;*/
+    width: 25%;
+}
+
+#last-div {
+    height: 20px;
+    background-color: #3D85C6
+}
+
+
+#testing-button {
+    
+    display: block;
+}
+
+
+/*Footer properties*/
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  background: black;
+}
+/* Contact options on the footer */
+.fa-facebook {
+  color: white;
+}
+
+.fa-facebook:hover {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-twitter:hover {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    color: white
+}
+
+.fa-linkedin:hover {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    color: white;
+}
+
+.fa-github:hover {
+    background: #c9510c;
+    color: white;
+}
+
+.copyright {
+   margin: 0px;
+   font-family: 'Julius Sans One', sans-serif;
+   font-size: 10px;
+   color: white;
+}
